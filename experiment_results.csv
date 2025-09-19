@@ -1,0 +1,10 @@
+Map,Algo,Success,PathLen,Nodes,Time
+maps/small.txt,bfs,True,8,51,0.0002925395965576172
+maps/small.txt,ucs,True,8,54,0.00041961669921875
+maps/small.txt,astar,True,8,20,0.00019741058349609375
+maps/medium.txt,bfs,True,18,431,0.0025835037231445312
+maps/medium.txt,ucs,True,18,437,0.0022728443145751953
+maps/medium.txt,astar,True,18,68,0.0006232261657714844
+maps/large.txt,bfs,True,38,2560,0.014292716979980469
+maps/large.txt,ucs,True,38,2618,0.011975765228271484
+maps/large.txt,astar,True,38,235,0.002470254898071289
