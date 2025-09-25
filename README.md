@@ -47,36 +47,36 @@ pandas
 pytest
 ```
 
-### 🚀 Usage Examples
-# 1. Run Agent on a Static Map
+# 🚀 Usage Examples
+### 1. Run Agent on a Static Map
 ```
 bash
 
 python main.py --map maps/small.txt --algo astar --start 0 0 --goal 4 4
 ```
 
-# 2. Run with Deterministic Dynamic Obstacles
+### 2. Run with Deterministic Dynamic Obstacles
 ```
 bash
 
 python main.py --map maps/small.txt --algo astar --start 0 0 --goal 4 4 --dynamic maps/dynamic.json --visualize
 ```
 
-# 3. Run with Unpredictable Dynamic Obstacles
+### 3. Run with Unpredictable Dynamic Obstacles
  ```
 bash
 
 python main.py --map maps/small.txt --algo astar --start 0 0 --goal 4 4 --dynamic unpredictable
 ```
 
-# 4. Run Experiments (Generate Results + Plots)
+### 4. Run Experiments (Generate Results + Plots)
 ```
 bash
 
 python experiments.py
 ```
 
-### Outputs:
+# Outputs:
 ```
 bash
 
@@ -85,7 +85,7 @@ nodes_vs_map.png
 time_vs_map.png
 ```
 
-### ✅ Testing
+# ✅ Testing
 Run unit tests:
 
 ```
@@ -94,7 +94,7 @@ bash
 python -m pytest test_project.py
 ```
 
-### 📊 Example Results
+# 📊 Example Results
 ```
 bash
 Map	Algo	PathLen	Nodes	Time (s)
@@ -106,7 +106,7 @@ Medium	UCS	22	180	0.008
 Medium	A*	22	90	0.005
 ```
 
-### 📌 Conclusion
+#📌 Conclusion
 A* is most efficient (fewer nodes, faster planning).
 
 BFS works only for small, unweighted maps.
