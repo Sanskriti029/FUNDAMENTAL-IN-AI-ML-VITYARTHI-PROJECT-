@@ -40,12 +40,13 @@ source venv/bin/activate
 bash
 
 pip install -r requirements.txt
-Dependencies include:
-numpy
-matplotlib
-pandas
-pytest
 ```
+Dependencies include:
+- numpy
+- matplotlib
+- pandas
+- pytest
+
 
 # 🚀 Usage Examples
 ### 1. Run Agent on a Static Map
@@ -77,13 +78,12 @@ python experiments.py
 ```
 
 # Outputs:
-```
-bash
 
-experiment_results.csv
-nodes_vs_map.png
-time_vs_map.png
-```
+
+- experiment_results.csv
+- nodes_vs_map.png
+- time_vs_map.png
+
 
 # ✅ Testing
 Run unit tests:
