@@ -1,22 +1,27 @@
+# 📦 Autonomous Delivery Agent — Grid Path Planning with Dynamic Obstacles  
 
-# 🚚 Autonomous Delivery Agent
+## 📖 Overview  
+This project implements an **autonomous delivery agent** navigating a **2D grid city** with static and dynamic obstacles. The agent must deliver packages efficiently while considering terrain costs, limited time, and moving obstacles.  
 
-## 📖 Project Overview
-This project implements an **autonomous delivery agent** that navigates a 2D grid city to deliver packages efficiently.  
-The agent:
-- Models the environment with **static obstacles, terrain movement costs, and dynamic obstacles**.
-- Implements multiple search strategies:
-  - **Uninformed Search:** BFS, Uniform-Cost Search (UCS)
-  - **Informed Search:** A* with admissible Manhattan heuristic
-  - **Local Search Replanning:** Hill-Climbing with random restarts (for dynamic environments)
-- Compares algorithms on multiple test maps.
+We implemented and compared **BFS, Uniform Cost Search (UCS), A\*, and a local search replanning strategy (hill climbing)**. The system includes:  
+- **Static environments** (different terrains, walls).  
+- **Dynamic environments** (deterministic vehicle schedules & unpredictable obstacles).  
+- **Experimental runner** to benchmark algorithms across maps.  
+- **Plots & logs** for your report.  
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Setup Instructions  
 
-### Prerequisites
-- Python 3.8+  
-- Install required dependencies:
+### 1. Clone / Copy the Project  
 ```bash
+cd path/to/project
+## 2. Create Virtual Environment 
+python -m venv venv
+# Activate:
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+## 3. Install Dependencies
 pip install -r requirements.txt
